@@ -14,26 +14,26 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Dev Grub',
-                    subTitle: 'The cookbook for developers',
+                    title: 'Bilerman',
+                    subTitle: 'Social project which mix of like Quora + Medium + Coursera',
                     imgSrc: github,
-                    link: 'https://devgrub.com',
+                    link: 'http://45.9.190.155/#/',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Garrett Love',
-                    subTitle: 'YouTube channel',
+                    title: 'Automatic Story Telling ',
+                    subTitle: 'Github',
                     imgSrc: github,
-                    link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
+                    link: 'https://www.github.com/argenadenov',
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'Evverest',
-                    subTitle: 'A social network for developers',
+                    title: 'No disturbance app',
+                    subTitle: 'An app that filters out all nonsense calls',
                     imgSrc: github,
-                    link: 'https://github.com/garrettlove8/evverest',
+                    link: 'https://github.com/argenadenov/nodisturbance',
                     selected: false
                 },
             ]
@@ -68,7 +68,7 @@ class Carousel extends React.Component {
 
     render() {
         return(
-            <Container fluid={true}>
+            <Container fluid={false}>
                 <Row className="justify-content-around">
                     {this.makeItems(this.state.items)}
                 </Row>
