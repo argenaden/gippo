@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import HomePage from "./pages/home";
 import AboutPage from "./pages/contact";
 import ContactPage from "./pages/about";
+import {Helmet} from "react-helmet";
 
 
 
@@ -35,9 +36,13 @@ class App extends React.Component {
             },
         }
     }
+
     render() {
         return (
             <Router>
+                <Helmet>
+                    <script src="//code.tidio.co/xcgducxuwkxqlbiolm1ekkcekpksk2l5.js" async/>
+                </Helmet>
                 <Container className="p-0" fluid={true}>
 
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
