@@ -9,7 +9,7 @@ function AboutPage(props) {
             <Hero title={props.title} />
 
             <Content>
-                <p>Hello, my name is Argen. I'm a software engineer at eMoldino.</p>
+                <p>Hello, my name is Argen. I'm a software engineer @ eMoldino.</p>
 
                 <p>My dream is to one day start my own business and become an entrepreneur (currently working on some ideas).</p>
 

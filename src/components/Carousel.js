@@ -15,7 +15,7 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Bilerman',
-                    subTitle: 'Social project which mix of like Quora + Medium + Coursera',
+                    subTitle: 'Social project which is mix of like Quora + Medium + Coursera',
                     imgSrc: github,
                     link: 'http://45.9.190.155/#/',
                     selected: false
@@ -25,7 +25,7 @@ class Carousel extends React.Component {
                     title: 'Automatic Story Telling ',
                     subTitle: 'Github',
                     imgSrc: github,
-                    link: 'https://www.github.com/argenadenov',
+                    link: 'https://www.github.com/argenaden',
                     selected: false
                 },
                 {
