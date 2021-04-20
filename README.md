@@ -1,8 +1,11 @@
 Simple portfolio site in React
 
-First install dependencies from package.json
+First: 
 
-For quick start
+### `install dependencies from package.json`
+
+
+For quick start:
 ### `npm start`
 
 Runs the app in the development mode.\
