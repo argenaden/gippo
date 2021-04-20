@@ -9,13 +9,9 @@ function AboutPage(props) {
             <Hero title={props.title} />
 
             <Content>
-                <p>Hello, my name is Argen. I'm a software engineer @ eMoldino.</p>
+                <p>Hi there 👋 , my name is Argen. I'm a software engineer in Seoul, Korea.</p>
 
-                <p>My dream is to one day start my own business and become an entrepreneur (currently working on some ideas).</p>
-
-                <p>I'm constantly learning new things. currently those things include gaining more experience with Vue.js, React, Java - Spring, AWS console</p>
-
-                <p>Me and my friends are working on this project. You can check it out <a href="http://45.9.190.155/" target="_blank" rel="noopener noreferrer">here</a>, or on the homepage. It is built with Java-Spring, MySQL, React.</p>
+                <p>Me and my friends are working on this project. You can check it out <a href="http://45.9.190.155/" target="_blank" rel="noopener noreferrer">here</a>, or on the homepage.</p>
             </Content>
         </div>
     );

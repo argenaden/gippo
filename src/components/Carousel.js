@@ -3,6 +3,7 @@ import React from 'react';
 import Card from '../components/Card';
 
 import github from '../assets/images/github.png';
+import shop from '../assets/images/shop.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -14,10 +15,10 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Bilerman',
-                    subTitle: 'Social project which is mix of like Quora + Medium + Coursera',
-                    imgSrc: github,
-                    link: 'http://45.9.190.155/#/',
+                    title: 'Shopping Site',
+                    subTitle: 'Comming Soon',
+                    imgSrc: shop,
+                    link: '',
                     selected: false
                 },
                 {
@@ -30,7 +31,7 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 2,
-                    title: 'No disturbance app',
+                    title: 'No Disturb',
                     subTitle: 'An app that filters out all nonsense calls',
                     imgSrc: github,
                     link: 'https://github.com/argenadenov/nodisturbance',
