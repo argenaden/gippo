@@ -1,5 +1,6 @@
 Simple portfolio site in React
 
+First install dependencies from package.json
 
 For quick start
 ### `npm start`
