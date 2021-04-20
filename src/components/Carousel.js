@@ -3,7 +3,8 @@ import React from 'react';
 import Card from '../components/Card';
 
 import github from '../assets/images/github.png';
-import shop from '../assets/images/shop.png';
+import shop from '../assets/images/shop.jpeg';
+import faced from '../assets/images/faced.jpeg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -31,12 +32,20 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 2,
-                    title: 'No Disturb',
-                    subTitle: 'An app that filters out all nonsense calls',
+                    title: 'Data collection App',
+                    subTitle: 'Github',
                     imgSrc: github,
-                    link: 'https://github.com/argenadenov/nodisturbance',
+                    link: 'https://github.com/argenadenov/RecordingApp',
                     selected: false
                 },
+                {
+                    id: 3,
+                    title: 'Face Detection App',
+                    subTitle: 'OpenCV',
+                    imgSrc: faced,
+                    link: 'https://github.com/argenadenov/FaceDetection',
+                    selected: false
+                }
             ]
         }
     }
