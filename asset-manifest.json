@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/gippo/static/css/main.02ccfd5c.chunk.css",
-    "main.js": "/gippo/static/js/main.b631b103.chunk.js",
-    "main.js.map": "/gippo/static/js/main.b631b103.chunk.js.map",
-    "runtime-main.js": "/gippo/static/js/runtime-main.9c337676.js",
-    "runtime-main.js.map": "/gippo/static/js/runtime-main.9c337676.js.map",
+    "main.js": "/gippo/static/js/main.2131e2dc.chunk.js",
+    "main.js.map": "/gippo/static/js/main.2131e2dc.chunk.js.map",
+    "runtime-main.js": "/gippo/static/js/runtime-main.d87e3262.js",
+    "runtime-main.js.map": "/gippo/static/js/runtime-main.d87e3262.js.map",
     "static/css/2.ef9168ec.chunk.css": "/gippo/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.664980ea.chunk.js": "/gippo/static/js/2.664980ea.chunk.js",
-    "static/js/2.664980ea.chunk.js.map": "/gippo/static/js/2.664980ea.chunk.js.map",
-    "static/js/3.99c2513d.chunk.js": "/gippo/static/js/3.99c2513d.chunk.js",
-    "static/js/3.99c2513d.chunk.js.map": "/gippo/static/js/3.99c2513d.chunk.js.map",
+    "static/js/2.539cf9bd.chunk.js": "/gippo/static/js/2.539cf9bd.chunk.js",
+    "static/js/2.539cf9bd.chunk.js.map": "/gippo/static/js/2.539cf9bd.chunk.js.map",
+    "static/js/3.abb2d08e.chunk.js": "/gippo/static/js/3.abb2d08e.chunk.js",
+    "static/js/3.abb2d08e.chunk.js.map": "/gippo/static/js/3.abb2d08e.chunk.js.map",
     "index.html": "/gippo/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/gippo/static/css/2.ef9168ec.chunk.css.map",
     "static/css/main.02ccfd5c.chunk.css.map": "/gippo/static/css/main.02ccfd5c.chunk.css.map",
-    "static/js/2.664980ea.chunk.js.LICENSE.txt": "/gippo/static/js/2.664980ea.chunk.js.LICENSE.txt",
+    "static/js/2.539cf9bd.chunk.js.LICENSE.txt": "/gippo/static/js/2.539cf9bd.chunk.js.LICENSE.txt",
     "static/media/code.aafecc10.svg": "/gippo/static/media/code.aafecc10.svg",
     "static/media/coding.083f4e07.svg": "/gippo/static/media/coding.083f4e07.svg",
     "static/media/data.f6c82d85.svg": "/gippo/static/media/data.f6c82d85.svg",
@@ -23,10 +23,10 @@
     "static/media/travel.d0065915.svg": "/gippo/static/media/travel.d0065915.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9c337676.js",
+    "static/js/runtime-main.d87e3262.js",
     "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.664980ea.chunk.js",
+    "static/js/2.539cf9bd.chunk.js",
     "static/css/main.02ccfd5c.chunk.css",
-    "static/js/main.b631b103.chunk.js"
+    "static/js/main.2131e2dc.chunk.js"
   ]
 }
