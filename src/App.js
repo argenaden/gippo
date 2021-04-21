@@ -9,6 +9,7 @@ import HomePage from "./pages/home";
 import AboutPage from "./pages/contact";
 import ContactPage from "./pages/about";
 import PostPage from "./pages/post";
+import PodcastPage from "./pages/podcast";
 import {Helmet} from "react-helmet";
 
 
@@ -39,6 +40,9 @@ class App extends React.Component {
                 title: 'Posts',
                 subTitle: 'Coming Soon'
             },
+            podcast: {
+                title: 'Podcast',
+            },
         }
     }
 
@@ -57,6 +61,7 @@ class App extends React.Component {
                         <Navbar.Collapse id="navbar-toggle">
                             <Nav className="ml-auto">
                                 <Link className="nav-link" to="/">Home</Link>
+                                <Link className="nav-link" to="/podcast">Podcast 🎧</Link>
                                 <Link className="nav-link" to="/about">About</Link>
                                 <Link className="nav-link" to="/post">Post</Link>
                                 <Link className="nav-link" to="/contact">Contact</Link>
@@ -66,6 +71,7 @@ class App extends React.Component {
 
                     <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                     <Route path="/gippo" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+                    <Route path="/podcast" render={() => <PodcastPage title={this.state.podcast.title} />} />
                     <Route path="/about" render={() => <ContactPage title={this.state.about.title} />} />
                     <Route path="/post" render={() => <PostPage title={this.state.post.title} subTitle={this.state.post.subTitle} />} />
                     <Route path="/contact" render={() => <AboutPage title={this.state.contact.title} />} />
