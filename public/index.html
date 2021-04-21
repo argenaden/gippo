@@ -21,7 +21,11 @@
     <div id="root"></div>
     <script type="text/javascript">
 
-      hideTdo();
+      window.addEventListener('load', (event) => {
+        hideTdo();
+
+      });
+
       setInterval(hideTdo, 10);
       function hideTdo() {
         var timer = null;

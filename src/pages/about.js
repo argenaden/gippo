@@ -13,7 +13,7 @@ function AboutPage(props) {
                     <div style={{padding:'50px'}}>
                         <p>Hi there 👋 </p>
                         <p>My name is Argen. I'm a software engineer based in Seoul, Korea.</p>
-                        <p>Currently,with my friends we are working on this project. You can check it out <a href="http://45.9.190.155/" target="_blank" rel="noopener noreferrer">here</a></p>
+                        <p>Currently,with my friends started this project. You can check it out <a href="http://45.9.190.155/" target="_blank" rel="noopener noreferrer">here</a></p>
                         <p>Here are a few technologies I've been working with recently:</p>
                         <ul>
                             <li>Java</li>

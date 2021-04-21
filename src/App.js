@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import HomePage from "./pages/home";
 import AboutPage from "./pages/contact";
 import ContactPage from "./pages/about";
+import PostPage from "./pages/post";
 import {Helmet} from "react-helmet";
 
 
@@ -34,6 +35,10 @@ class App extends React.Component {
             about: {
                 title: 'About me'
             },
+            post: {
+                title: 'Posts',
+                subTitle: 'Coming Soon'
+            },
         }
     }
 
@@ -53,6 +58,7 @@ class App extends React.Component {
                             <Nav className="ml-auto">
                                 <Link className="nav-link" to="/">Home</Link>
                                 <Link className="nav-link" to="/about">About</Link>
+                                <Link className="nav-link" to="/post">Post</Link>
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </Nav>
                         </Navbar.Collapse>
@@ -61,6 +67,7 @@ class App extends React.Component {
                     <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                     <Route path="/gippo" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                     <Route path="/about" render={() => <ContactPage title={this.state.about.title} />} />
+                    <Route path="/post" render={() => <PostPage title={this.state.post.title} subTitle={this.state.post.subTitle} />} />
                     <Route path="/contact" render={() => <AboutPage title={this.state.contact.title} />} />
 
                     <Footer />

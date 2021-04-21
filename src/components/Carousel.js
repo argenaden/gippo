@@ -3,8 +3,6 @@ import React from 'react';
 import Card from '../components/Card';
 
 import github from '../assets/images/github.png';
-import shop from '../assets/images/shop.jpeg';
-import faced from '../assets/images/faced.jpeg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -18,7 +16,7 @@ class Carousel extends React.Component {
                     id: 0,
                     title: 'Shopping Site',
                     subTitle: 'Comming Soon',
-                    imgSrc: shop,
+                    imgSrc: github,
                     link: '',
                     selected: false
                 },
@@ -42,7 +40,7 @@ class Carousel extends React.Component {
                     id: 3,
                     title: 'Face Detection App',
                     subTitle: 'OpenCV',
-                    imgSrc: faced,
+                    imgSrc: github,
                     link: 'https://github.com/argenadenov/FaceDetection',
                     selected: false
                 }
