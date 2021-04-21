@@ -60,21 +60,21 @@ class App extends React.Component {
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                         <Navbar.Collapse id="navbar-toggle">
                             <Nav className="ml-auto">
-                                <Link className="nav-link" to="/">Home</Link>
-                                <Link className="nav-link" to="/podcast">Podcast 🎧</Link>
-                                <Link className="nav-link" to="/about">About</Link>
-                                <Link className="nav-link" to="/post">Post</Link>
-                                <Link className="nav-link" to="/contact">Contact</Link>
+                                <Link className="nav-link" to="/gippo">Home</Link>
+                                <Link className="nav-link" to="/gippo/podcast">Podcast 🎧</Link>
+                                <Link className="nav-link" to="/gippo/about">About</Link>
+                                <Link className="nav-link" to="/gippo/post">Post</Link>
+                                <Link className="nav-link" to="/gippo/contact">Contact</Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
 
                     <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
                     <Route path="/gippo" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
-                    <Route path="/podcast" render={() => <PodcastPage title={this.state.podcast.title} />} />
-                    <Route path="/about" render={() => <ContactPage title={this.state.about.title} />} />
-                    <Route path="/post" render={() => <PostPage title={this.state.post.title} subTitle={this.state.post.subTitle} />} />
-                    <Route path="/contact" render={() => <AboutPage title={this.state.contact.title} />} />
+                    <Route path="/gippo/podcast" render={() => <PodcastPage title={this.state.podcast.title} />} />
+                    <Route path="/gippo/about" render={() => <ContactPage title={this.state.about.title} />} />
+                    <Route path="/gippo/post" render={() => <PostPage title={this.state.post.title} subTitle={this.state.post.subTitle} />} />
+                    <Route path="/gippo/contact" render={() => <AboutPage title={this.state.contact.title} />} />
 
                     <Footer />
 
