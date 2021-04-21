@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/gippo/static/css/main.e5d8c3b6.chunk.css",
-    "main.js": "/gippo/static/js/main.4205c1ab.chunk.js",
-    "main.js.map": "/gippo/static/js/main.4205c1ab.chunk.js.map",
+    "main.js": "/gippo/static/js/main.4d5a5513.chunk.js",
+    "main.js.map": "/gippo/static/js/main.4d5a5513.chunk.js.map",
     "runtime-main.js": "/gippo/static/js/runtime-main.9c337676.js",
     "runtime-main.js.map": "/gippo/static/js/runtime-main.9c337676.js.map",
     "static/css/2.ef9168ec.chunk.css": "/gippo/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.5a9d55d5.chunk.js": "/gippo/static/js/2.5a9d55d5.chunk.js",
-    "static/js/2.5a9d55d5.chunk.js.map": "/gippo/static/js/2.5a9d55d5.chunk.js.map",
+    "static/js/2.664980ea.chunk.js": "/gippo/static/js/2.664980ea.chunk.js",
+    "static/js/2.664980ea.chunk.js.map": "/gippo/static/js/2.664980ea.chunk.js.map",
     "static/js/3.99c2513d.chunk.js": "/gippo/static/js/3.99c2513d.chunk.js",
     "static/js/3.99c2513d.chunk.js.map": "/gippo/static/js/3.99c2513d.chunk.js.map",
     "index.html": "/gippo/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/gippo/static/css/2.ef9168ec.chunk.css.map",
     "static/css/main.e5d8c3b6.chunk.css.map": "/gippo/static/css/main.e5d8c3b6.chunk.css.map",
-    "static/js/2.5a9d55d5.chunk.js.LICENSE.txt": "/gippo/static/js/2.5a9d55d5.chunk.js.LICENSE.txt"
+    "static/js/2.664980ea.chunk.js.LICENSE.txt": "/gippo/static/js/2.664980ea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9c337676.js",
     "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.5a9d55d5.chunk.js",
+    "static/js/2.664980ea.chunk.js",
     "static/css/main.e5d8c3b6.chunk.css",
-    "static/js/main.4205c1ab.chunk.js"
+    "static/js/main.4d5a5513.chunk.js"
   ]
 }
