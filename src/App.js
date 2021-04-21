@@ -19,7 +19,7 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            title: 'Argen Adenov',
+            title: 'Argen',
             headerLinks: [
                 {title: 'Home', path: '/'},
                 {title: 'About', path: '/about'},
@@ -38,7 +38,7 @@ class App extends React.Component {
             },
             post: {
                 title: 'Posts',
-                subTitle: 'Coming Soon'
+                subTitle: 'Coming Soon ...'
             },
             podcast: {
                 title: 'Podcast',
@@ -55,7 +55,7 @@ class App extends React.Component {
                 <Container className="p-0" fluid={true}>
 
                     <Navbar className="border-bottom" bg="transparent" expand="lg">
-                        <Navbar.Brand>Portfolio</Navbar.Brand>
+                        <Navbar.Brand className="font-weight-light" style={{color: '#0F4465'}}> Welcome ✨</Navbar.Brand>
 
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                         <Navbar.Collapse id="navbar-toggle">

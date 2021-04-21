@@ -2,7 +2,10 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import github from '../assets/images/github.png';
+import shop from '../assets/images/shop.svg';
+import faced from '../assets/images/faced.svg';
+import git from '../assets/images/git.svg';
+import data from '../assets/images/data.svg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -16,7 +19,7 @@ class Carousel extends React.Component {
                     id: 0,
                     title: 'Shopping Site',
                     subTitle: 'Comming Soon',
-                    imgSrc: github,
+                    imgSrc: shop,
                     link: '',
                     selected: false
                 },
@@ -24,7 +27,7 @@ class Carousel extends React.Component {
                     id: 1,
                     title: 'Automatic Story Telling ',
                     subTitle: 'Github',
-                    imgSrc: github,
+                    imgSrc: git,
                     link: 'https://www.github.com/argenaden',
                     selected: false
                 },
@@ -32,7 +35,7 @@ class Carousel extends React.Component {
                     id: 2,
                     title: 'Data collection App',
                     subTitle: 'Github',
-                    imgSrc: github,
+                    imgSrc: data,
                     link: 'https://github.com/argenadenov/RecordingApp',
                     selected: false
                 },
@@ -40,7 +43,7 @@ class Carousel extends React.Component {
                     id: 3,
                     title: 'Face Detection App',
                     subTitle: 'OpenCV',
-                    imgSrc: github,
+                    imgSrc: faced,
                     link: 'https://github.com/argenadenov/FaceDetection',
                     selected: false
                 }

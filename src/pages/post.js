@@ -6,7 +6,7 @@ function PostPage(props) {
 
     return(
         <div>
-            <Hero title={props.title} />
+            <Hero title={props.title} subTitle={props.subTitle}/>
             <Article />
         </div>
     );

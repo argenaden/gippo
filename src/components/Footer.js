@@ -10,7 +10,7 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0 d-flex justify-content-end" md={12}>
-                        This site was made by Argen Adenov.
+                        <span className="font-weight-light text-muted">©️ This site was made by Argen.</span>
                     </Col>
                 </Row>
             </Container>
