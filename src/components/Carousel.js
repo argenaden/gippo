@@ -17,10 +17,10 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Shopping Site',
-                    subTitle: 'Comming Soon',
+                    title: 'Bilerman',
+                    subTitle: 'Share your ideas',
                     imgSrc: shop,
-                    link: '',
+                    link: 'https://www.bilerman.kg',
                     selected: false
                 },
                 {
